@@ -1,0 +1,712 @@
+2013-11-14 01-05
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.0 (2.12.1) (Phoenix) =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/config.yml
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:79)
+	at org.anjocaido.groupmanager.GMConfiguration.<init>(GMConfiguration.java:51)
+	at org.anjocaido.groupmanager.GroupManager.prepareConfig(GroupManager.java:324)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:161)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:93)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:282)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:264)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.reload(CraftServer.java:609)
+	at org.bukkit.Bukkit.reload(Bukkit.java:277)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:192)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchCommand(CraftServer.java:523)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.handleCommand(PlayerConnection.java:959)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.chat(PlayerConnection.java:877)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.a(PlayerConnection.java:834)
+	at net.minecraft.server.v1_6_R3.Packet3Chat.handle(SourceFile:49)
+	at net.minecraft.server.v1_6_R3.NetworkManager.b(NetworkManager.java:296)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.e(PlayerConnection.java:116)
+	at net.minecraft.server.v1_6_R3.ServerConnection.b(SourceFile:37)
+	at net.minecraft.server.v1_6_R3.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:592)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<reader>", line 40, column 1:
+    	  zombie_games:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:179)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:535)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:423)
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:75)
+	... 27 more
+
+============================================================================
+
+2013-11-14 01-10
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.0 (2.12.1) (Phoenix) =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/config.yml
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:79)
+	at org.anjocaido.groupmanager.GMConfiguration.<init>(GMConfiguration.java:51)
+	at org.anjocaido.groupmanager.GroupManager.prepareConfig(GroupManager.java:324)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:161)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:93)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:282)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:264)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.reload(CraftServer.java:609)
+	at org.bukkit.Bukkit.reload(Bukkit.java:277)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:192)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchCommand(CraftServer.java:523)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.handleCommand(PlayerConnection.java:959)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.chat(PlayerConnection.java:877)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.a(PlayerConnection.java:834)
+	at net.minecraft.server.v1_6_R3.Packet3Chat.handle(SourceFile:49)
+	at net.minecraft.server.v1_6_R3.NetworkManager.b(NetworkManager.java:296)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.e(PlayerConnection.java:116)
+	at net.minecraft.server.v1_6_R3.ServerConnection.b(SourceFile:37)
+	at net.minecraft.server.v1_6_R3.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:592)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<reader>", line 41, column 1:
+    	zombie_games:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:179)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:535)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:423)
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:75)
+	... 27 more
+
+============================================================================
+
+2013-11-14 01-36
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.0 (2.12.1) (Phoenix) =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/config.yml
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:79)
+	at org.anjocaido.groupmanager.GMConfiguration.<init>(GMConfiguration.java:51)
+	at org.anjocaido.groupmanager.GroupManager.prepareConfig(GroupManager.java:324)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:161)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:93)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:282)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:264)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.reload(CraftServer.java:609)
+	at org.bukkit.Bukkit.reload(Bukkit.java:277)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:192)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchCommand(CraftServer.java:523)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.handleCommand(PlayerConnection.java:959)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.chat(PlayerConnection.java:877)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.a(PlayerConnection.java:834)
+	at net.minecraft.server.v1_6_R3.Packet3Chat.handle(SourceFile:49)
+	at net.minecraft.server.v1_6_R3.NetworkManager.b(NetworkManager.java:296)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.e(PlayerConnection.java:116)
+	at net.minecraft.server.v1_6_R3.ServerConnection.b(SourceFile:37)
+	at net.minecraft.server.v1_6_R3.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:592)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<reader>", line 41, column 1:
+    	zombie_games:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:179)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:535)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:423)
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:75)
+	... 27 more
+
+============================================================================
+
+2013-11-14 04-03
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.0 (2.12.1) (Phoenix) =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/config.yml
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:79)
+	at org.anjocaido.groupmanager.GMConfiguration.<init>(GMConfiguration.java:51)
+	at org.anjocaido.groupmanager.GroupManager.prepareConfig(GroupManager.java:324)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:161)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:93)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:282)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:264)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.reload(CraftServer.java:609)
+	at org.bukkit.Bukkit.reload(Bukkit.java:277)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:192)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchCommand(CraftServer.java:523)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.handleCommand(PlayerConnection.java:959)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.chat(PlayerConnection.java:877)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.a(PlayerConnection.java:834)
+	at net.minecraft.server.v1_6_R3.Packet3Chat.handle(SourceFile:49)
+	at net.minecraft.server.v1_6_R3.NetworkManager.b(NetworkManager.java:296)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.e(PlayerConnection.java:116)
+	at net.minecraft.server.v1_6_R3.ServerConnection.b(SourceFile:37)
+	at net.minecraft.server.v1_6_R3.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:592)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<reader>", line 41, column 1:
+    	zombie_games:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:179)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:535)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:423)
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:75)
+	... 27 more
+
+============================================================================
+
+2013-11-14 04-16
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.0 (2.12.1) (Phoenix) =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/config.yml
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:79)
+	at org.anjocaido.groupmanager.GMConfiguration.<init>(GMConfiguration.java:51)
+	at org.anjocaido.groupmanager.GroupManager.prepareConfig(GroupManager.java:324)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:161)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:93)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:282)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:264)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.reload(CraftServer.java:609)
+	at org.bukkit.Bukkit.reload(Bukkit.java:277)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:192)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchCommand(CraftServer.java:523)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.handleCommand(PlayerConnection.java:959)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.chat(PlayerConnection.java:877)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.a(PlayerConnection.java:834)
+	at net.minecraft.server.v1_6_R3.Packet3Chat.handle(SourceFile:49)
+	at net.minecraft.server.v1_6_R3.NetworkManager.b(NetworkManager.java:296)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.e(PlayerConnection.java:116)
+	at net.minecraft.server.v1_6_R3.ServerConnection.b(SourceFile:37)
+	at net.minecraft.server.v1_6_R3.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:592)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<reader>", line 41, column 1:
+    	zombie_games:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:179)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:535)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:423)
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:75)
+	... 27 more
+
+============================================================================
+
+2013-11-14 04-22
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.0 (2.12.1) (Phoenix) =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/config.yml
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:79)
+	at org.anjocaido.groupmanager.GMConfiguration.<init>(GMConfiguration.java:51)
+	at org.anjocaido.groupmanager.GroupManager.prepareConfig(GroupManager.java:324)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:161)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:93)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:282)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:264)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.l(MinecraftServer.java:315)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.f(MinecraftServer.java:292)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.a(MinecraftServer.java:252)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:152)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<reader>", line 41, column 1:
+    	zombie_games:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:179)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:535)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:423)
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:75)
+	... 15 more
+
+============================================================================
+
+2013-11-16 20-50
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.0 (2.12.1) (Phoenix) =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/config.yml
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:79)
+	at org.anjocaido.groupmanager.GMConfiguration.<init>(GMConfiguration.java:51)
+	at org.anjocaido.groupmanager.GroupManager.prepareConfig(GroupManager.java:324)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:161)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:93)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:282)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:264)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.reload(CraftServer.java:609)
+	at org.bukkit.Bukkit.reload(Bukkit.java:277)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:192)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchCommand(CraftServer.java:523)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.handleCommand(PlayerConnection.java:959)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.chat(PlayerConnection.java:877)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.a(PlayerConnection.java:834)
+	at net.minecraft.server.v1_6_R3.Packet3Chat.handle(SourceFile:49)
+	at net.minecraft.server.v1_6_R3.NetworkManager.b(NetworkManager.java:296)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.e(PlayerConnection.java:116)
+	at net.minecraft.server.v1_6_R3.ServerConnection.b(SourceFile:37)
+	at net.minecraft.server.v1_6_R3.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:592)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<reader>", line 41, column 1:
+    	zombie_games:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:179)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:535)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:423)
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:75)
+	... 27 more
+
+============================================================================
+
+2013-11-16 20-51
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.0 (2.12.1) (Phoenix) =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/config.yml
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:79)
+	at org.anjocaido.groupmanager.GMConfiguration.<init>(GMConfiguration.java:51)
+	at org.anjocaido.groupmanager.GroupManager.prepareConfig(GroupManager.java:324)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:161)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:93)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:282)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:264)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.reload(CraftServer.java:609)
+	at org.bukkit.Bukkit.reload(Bukkit.java:277)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:192)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchCommand(CraftServer.java:523)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.handleCommand(PlayerConnection.java:959)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.chat(PlayerConnection.java:877)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.a(PlayerConnection.java:834)
+	at net.minecraft.server.v1_6_R3.Packet3Chat.handle(SourceFile:49)
+	at net.minecraft.server.v1_6_R3.NetworkManager.b(NetworkManager.java:296)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.e(PlayerConnection.java:116)
+	at net.minecraft.server.v1_6_R3.ServerConnection.b(SourceFile:37)
+	at net.minecraft.server.v1_6_R3.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:592)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<reader>", line 41, column 1:
+    	zombie_games:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:179)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:535)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:423)
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:75)
+	... 27 more
+
+============================================================================
+
+2013-11-25 01-47
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.0 (2.12.1) (Phoenix) =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/config.yml
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:79)
+	at org.anjocaido.groupmanager.GMConfiguration.<init>(GMConfiguration.java:51)
+	at org.anjocaido.groupmanager.GroupManager.prepareConfig(GroupManager.java:324)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:161)
+	at org.anjocaido.groupmanager.GroupManager.onCommand(GroupManager.java:1872)
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:192)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchCommand(CraftServer.java:523)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.handleCommand(PlayerConnection.java:959)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.chat(PlayerConnection.java:877)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.a(PlayerConnection.java:834)
+	at net.minecraft.server.v1_6_R3.Packet3Chat.handle(SourceFile:49)
+	at net.minecraft.server.v1_6_R3.NetworkManager.b(NetworkManager.java:296)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.e(PlayerConnection.java:116)
+	at net.minecraft.server.v1_6_R3.ServerConnection.b(SourceFile:37)
+	at net.minecraft.server.v1_6_R3.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:592)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while parsing a block collection
+ in "<reader>", line 35, column 7:
+          - all_unnamed_worlds
+          ^
+expected <block end>, but found Key
+ in "<reader>", line 36, column 7:
+          world: #the towny worlds
+          ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry.produce(ParserImpl.java:519)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:423)
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:75)
+	... 20 more
+
+============================================================================
+
+2013-11-25 01-48
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.0 (2.12.1) (Phoenix) =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/config.yml
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:79)
+	at org.anjocaido.groupmanager.GMConfiguration.<init>(GMConfiguration.java:51)
+	at org.anjocaido.groupmanager.GroupManager.prepareConfig(GroupManager.java:324)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:161)
+	at org.anjocaido.groupmanager.GroupManager.onCommand(GroupManager.java:1872)
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:192)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchCommand(CraftServer.java:523)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.handleCommand(PlayerConnection.java:959)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.chat(PlayerConnection.java:877)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.a(PlayerConnection.java:834)
+	at net.minecraft.server.v1_6_R3.Packet3Chat.handle(SourceFile:49)
+	at net.minecraft.server.v1_6_R3.NetworkManager.b(NetworkManager.java:296)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.e(PlayerConnection.java:116)
+	at net.minecraft.server.v1_6_R3.ServerConnection.b(SourceFile:37)
+	at net.minecraft.server.v1_6_R3.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:592)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while parsing a block collection
+ in "<reader>", line 35, column 7:
+          - all_unnamed_worlds
+          ^
+expected <block end>, but found Key
+ in "<reader>", line 36, column 7:
+          world: #the towny worlds
+          ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry.produce(ParserImpl.java:519)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:423)
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:75)
+	... 20 more
+
+============================================================================
+
+2013-11-25 01-50
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.0 (2.12.1) (Phoenix) =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/config.yml
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:79)
+	at org.anjocaido.groupmanager.GMConfiguration.<init>(GMConfiguration.java:51)
+	at org.anjocaido.groupmanager.GroupManager.prepareConfig(GroupManager.java:324)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:161)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:93)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:282)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:264)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.l(MinecraftServer.java:315)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.f(MinecraftServer.java:292)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.a(MinecraftServer.java:252)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:152)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while parsing a block collection
+ in "<reader>", line 35, column 7:
+          - all_unnamed_worlds
+          ^
+expected <block end>, but found Key
+ in "<reader>", line 36, column 7:
+          world: #the towny worlds
+          ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry.produce(ParserImpl.java:519)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:423)
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:75)
+	... 15 more
+
+============================================================================
+
+2013-11-25 01-59
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.0 (2.12.1) (Phoenix) =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/config.yml
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:79)
+	at org.anjocaido.groupmanager.GMConfiguration.<init>(GMConfiguration.java:51)
+	at org.anjocaido.groupmanager.GroupManager.prepareConfig(GroupManager.java:324)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:161)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:93)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:282)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:264)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.l(MinecraftServer.java:315)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.f(MinecraftServer.java:292)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.a(MinecraftServer.java:252)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:152)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while parsing a block collection
+ in "<reader>", line 35, column 7:
+          - all_unnamed_worlds
+          ^
+expected <block end>, but found Key
+ in "<reader>", line 36, column 7:
+          world: #the towny worlds
+          ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry.produce(ParserImpl.java:519)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:423)
+	at org.anjocaido.groupmanager.GMConfiguration.load(GMConfiguration.java:75)
+	... 15 more
+
+============================================================================
+

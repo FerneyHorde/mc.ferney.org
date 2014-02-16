@@ -1,0 +1,1 @@
+screen -dmS mc java -Xmx1024M -jar craftbukkit.jar

@@ -1,0 +1,32 @@
+timestamps:
+  login: 1392516486498
+  lastteleport: 1392517805378
+  logout: 1392519244965
+  jail: 0
+ipAddress: 75.169.26.128
+lastlocation:
+  world: StationWorld
+  x: -471.5
+  y: 4.0
+  z: 388.5
+  yaw: 265.73743
+  pitch: 90.0
+money: '3.00'
+logoutlocation:
+  world: StationWorld
+  x: -471.5
+  y: 4.0
+  z: 388.5
+  yaw: 265.73743
+  pitch: 90.0
+jailed: false
+afk: false
+nickname: ethan
+homes:
+  home:
+    world: StationWorld
+    x: -428.98750001192093
+    y: 4.0
+    z: 365.36819615187466
+    yaw: 2.7919633
+    pitch: 30.741549

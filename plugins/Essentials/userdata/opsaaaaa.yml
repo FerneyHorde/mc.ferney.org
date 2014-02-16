@@ -1,0 +1,67 @@
+timestamps:
+  login: 1392516408201
+  logout: 1392518187465
+  lastteleport: 1392517780380
+  kits:
+    heads: 1387669607415
+ipAddress: 75.169.26.128
+logoutlocation:
+  world: StationWorld
+  x: -456.30615426437856
+  y: 4.0
+  z: 335.61530209636476
+  yaw: 30.462702
+  pitch: -37.799923
+mail:
+- 'opsaaaaa: sorry we messed up some towny stuff. you should reclaim your plots(/plot
+  claim)'
+- 'opsaaaaa: plz dont claim someone else''s plots. thanks'
+- 'opsaaaaa: sorry i think did not save all we did in the hoth world'
+- 'soccerjoseph: what was that world editer mod called?'
+- 'soccerjoseph: tell everyone on the server to make a flag (striped is best) =)'
+- 'opsaaaaa: joseph told me he thinks it would be cool if we all had flag colors like
+  red blue blue'
+- 'JacobaBarbary: FerneyHorde kddd my parkor is fun and hard'
+- 'JacobaBarbary: FerneyHorde kddd my parkor is fun and hard'
+- 'opsaaaaa: we are having a permissions problum and might not be able to fix it to
+  tell monday \'
+- 'opsaaaaa: i think i fixed the problum. if not e-mail me @: sean@ferney.org'
+- 'soccerjoseph: i am not admin anymore =( did you know?'
+- 'soccerjoseph: all of my signs disapeared'
+- 'opsaaaaa: sorry again. i used a comand that did not do what i thought it did and...'
+- 'opsaaaaa: long story short. all the protals are gone and world multi world info.'
+- 'opsaaaaa: it will take a while to fix. btwu you can use "/warp" to go to most worlds'
+- 'opsaaaaa: well it seems to be fixed. there could still be bugs if so let us let
+  us know'
+money: '12837.00'
+afk: false
+lastlocation:
+  world: world
+  x: -89.15577655605448
+  y: 88.32384207541759
+  z: 372.56354307011463
+  yaw: -8.266576
+  pitch: 27.303404
+homes:
+  bayhouse:
+    world: survival
+    x: -447.2476160675819
+    y: 63.0
+    z: 377.1125726325008
+    yaw: 254.24933
+    pitch: 6.750052
+  horesland:
+    world: survival
+    x: -489.02220513320617
+    y: 64.0
+    z: 1135.6584791371047
+    yaw: -150.12686
+    pitch: 12.320195
+  maked:
+    world: StationWorld
+    x: -626.3486909420606
+    y: 4.0
+    z: 725.2128306664229
+    yaw: -253.33917
+    pitch: 43.349957
+nickname: sean

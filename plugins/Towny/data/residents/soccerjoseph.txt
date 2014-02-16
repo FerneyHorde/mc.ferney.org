@@ -1,0 +1,11 @@
+lastOnline=1392518441130
+registered=1385846173420
+isNPC=false
+title=
+surname=
+town=Narnia
+town-ranks=
+nation-ranks=
+friends=
+townBlocks=world:[0,0]-6,24,-1.0;|
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse

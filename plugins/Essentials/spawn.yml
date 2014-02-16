@@ -1,0 +1,8 @@
+spawns: 
+  default: 
+    world: StationWorld
+    x: -459.97387025374934
+    y: 5.0
+    z: 342.02488044621515
+    yaw: -181.03711
+    pitch: -1.3500097

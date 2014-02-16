@@ -1,0 +1,24 @@
+timestamps:
+  login: 1392519153098
+  lastteleport: 1392434183386
+  logout: 1392435004904
+  jail: 0
+ipAddress: 75.169.26.128
+lastlocation:
+  world: StationWorld
+  x: -446.30000001192093
+  y: 4.0
+  z: 314.76324093522675
+  yaw: -335.24994
+  pitch: 5.7000303
+money: '306497.75'
+afk: false
+logoutlocation:
+  world: CityBuild
+  x: 92.78463560709056
+  y: 65.82388756259547
+  z: 366.5954513102577
+  yaw: -110.676025
+  pitch: 21.000004
+nickname: jb
+jailed: false

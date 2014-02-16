@@ -1,0 +1,64 @@
+timestamps:
+  login: 1392519460053
+  logout: 1392519467465
+  lastteleport: 1392517274617
+  kits:
+    tools: 1387568312784
+    firework: 1387563561359
+    color: 1387568405337
+    heads: 1387563701668
+    dtools: 1387564009318
+    notch: 1387563493710
+ipAddress: 75.169.26.128
+money: '46348.0'
+logoutlocation:
+  world: StationWorld
+  x: -405.97095339244254
+  y: 32.38304714114761
+  z: 373.7931244564753
+  yaw: -37.791748
+  pitch: -18.749998
+afk: false
+lastlocation:
+  world: world
+  x: -139.93429065043546
+  y: 86.58718805031594
+  z: 279.1054663643058
+  yaw: -71.54691
+  pitch: 61.349957
+unlimited:
+- 1
+nickname: keith
+homes:
+  mine:
+    world: survival
+    x: -162.57644985060557
+    y: 38.0
+    z: 453.36383842710603
+    yaw: 189.13947
+    pitch: -0.5999762
+  home:
+    world: survival
+    x: -331.3669548132029
+    y: 103.0
+    z: 380.4542161342535
+    yaw: -180.45099
+    pitch: 2.9999838
+  dark_forest:
+    world: survival
+    x: 6.5
+    y: 64.0
+    z: 589.5
+    yaw: 3.7496338
+    pitch: 4.34997
+mail:
+- 'opsaaaaa: we are having a permissions problum and might not be able to fix it to
+  tell monday \'
+- 'opsaaaaa: i think i fixed the problum. if not e-mail me @: sean@ferney.org'
+- 'opsaaaaa: hay i know what you did. hehe think it funny to drop sand on sean do
+  yoju'
+- 'opsaaaaa: sorry again. i used a comand that did not do what i thought it did and...'
+- 'opsaaaaa: long story short. all the protals are gone and world multi world info.'
+- 'opsaaaaa: it will take a while to fix. btwu you can use "/warp" to go to most worlds'
+- 'opsaaaaa: well it seems to be fixed. there could still be bugs if so let us let
+  us know'

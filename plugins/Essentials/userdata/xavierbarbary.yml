@@ -1,0 +1,45 @@
+timestamps:
+  login: 1392432714651
+  logout: 1392435992420
+  lastteleport: 1392433352191
+ipAddress: 75.169.26.128
+logoutlocation:
+  world: CityBuild
+  x: 24.05788195858681
+  y: 69.5
+  z: 256.80041437373603
+  yaw: -269.86234
+  pitch: 75.15001
+mail:
+- 'opsaaaaa: sorry we messed up some towny stuff. you should reclaim your plots(/plot
+  claim)'
+- 'opsaaaaa: plz dont claim someone else''s plots. thanks'
+- 'opsaaaaa: sorry i think did not save all we did in the hoth world'
+- 'opsaaaaa: joseph told me he thinks it would be cool if we all had flag colors like
+  red blue blue'
+- 'opsaaaaa: we are having a permissions problum and might not be able to fix it to
+  tell monday \'
+- 'opsaaaaa: i think i fixed the problum. if not e-mail me @: sean@ferney.org'
+- 'opsaaaaa: sorry again. i used a comand that did not do what i thought it did and...'
+- 'opsaaaaa: long story short. all the protals are gone and world multi world info.'
+- 'opsaaaaa: it will take a while to fix. btwu you can use "/warp" to go to most worlds'
+- 'opsaaaaa: well it seems to be fixed. there could still be bugs if so let us let
+  us know'
+lastlocation:
+  world: CityBuild
+  x: 14.9517696377772
+  y: 105.38931942699888
+  z: 496.13393838569806
+  yaw: 259.7954
+  pitch: 49.80002
+money: '880.0'
+afk: false
+nickname: kyle
+homes:
+  home:
+    world: survival
+    x: -317.38321046223615
+    y: 120.0
+    z: 890.3000000119209
+    yaw: -63.849487
+    pitch: 48.349976

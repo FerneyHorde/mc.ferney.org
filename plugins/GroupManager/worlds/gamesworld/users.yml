@@ -1,0 +1,16 @@
+users:
+  FerneyHorde:
+    group: admin
+    subgroups: []
+    permissions:
+    - '*'
+  kddd:
+    group: admin
+    subgroups: []
+    permissions:
+    - '*'
+  opsaaaaa:
+    group: admin
+    subgroups: []
+    permissions:
+    - '*'

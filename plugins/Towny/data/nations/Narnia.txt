@@ -1,0 +1,7 @@
+towns=Narnia,frost,island,Farmington,
+capital=Narnia
+assistants=
+allies=
+enemies=
+taxes=0.0
+neutral=false

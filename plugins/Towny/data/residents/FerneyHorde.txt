@@ -1,0 +1,11 @@
+lastOnline=1392509569678
+registered=1382322688307
+isNPC=false
+title=
+surname=
+town=Farmington
+town-ranks=
+nation-ranks=
+friends=
+townBlocks=
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse

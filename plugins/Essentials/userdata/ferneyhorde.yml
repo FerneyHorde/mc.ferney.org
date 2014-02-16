@@ -1,0 +1,22 @@
+timestamps:
+  login: 1392502322733
+  lastteleport: 1392502692437
+  logout: 1392509568962
+ipAddress: 75.169.26.128
+money: '9999999551465.0'
+afk: false
+lastlocation:
+  world: CityBuild
+  x: 64.07955507603145
+  y: 64.0
+  z: 426.4529185036118
+  yaw: -104.64097
+  pitch: -2.6999726
+logoutlocation:
+  world: CityBuild
+  x: 6.998503424561308
+  y: 56.0
+  z: 346.59433264057407
+  yaw: 245.7373
+  pitch: 39.749973
+nickname: Dad

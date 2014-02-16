@@ -1,0 +1,217 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  user:
+    default: true
+    permissions:
+    - -bukkit.command.kill
+    - groupmanager.mangaddi
+    - groupmanager.listgroups
+    - groupmanager.manglistp
+    - groupmanager.notify.self
+    - groupmanager.notify.other
+
+    - bukkit.command.gamemode
+
+    - multiverse.help
+    - multiverse.access.*
+    - multiverse.core.list.who
+    - multiverse.core.list.worlds
+    - multiverse.core.spawn.self
+    - multiverse.portal.access.*
+
+    - Signshop.Signs.*
+    - Signshop.IgnoreMax
+    - Signshop.IgnoreRepair
+
+    - lockette.user.create.*
+
+    - essentials.gamemode
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.pay
+    - essentials.sell
+    - essentials.worth
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.compass
+    - essentials.depth
+    - essentials.getpos
+    - essentials.help
+    - essentials.help.*
+
+    - essentials.ignore
+    - essentials.info
+    - essentials.itemdb
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.mail.sendall
+    - essentials.me
+    - essentials.msg
+    - essentials.msg.*
+    - essentials.near
+    - essentials.nick
+    - essentials.nick.*
+    - essentials.msg
+    - essentials.msg.*
+    - essentials.realname
+    - essentials.recipe
+    - essentials.rules
+    - essentials.seen
+    - essentials.seen.banreason
+    - essentials.spawner
+    - essentials.spawner.*
+    - essentials.weather
+
+    - essentials.spawn
+
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.keepxp
+    - essentials.worlds.*
+    - essentials.delhome
+
+    - essentials.home
+    - essentials.home.bed
+    - essentials.worlds.*
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.sethome.multiple.unlimited
+
+    - essentials.tpa
+    - essentials.worlds.*
+    - essentials.tpaall
+    - essentials.worlds.*
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.worlds.*
+    - essentials.tpall
+    - essentials.worlds
+    - essentials.worlds.*
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.*
+    - essentials.build
+    - essentials.build.break.*
+    - essentials.build.craft.*
+    - essentials.build.drop.*
+    - essentials.build.interact.*
+    - essentials.build.pickup.*
+    - essentials.build.place.*
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.magic
+    - essentials.chat.question
+    - essentials.chat.shout
+    - essentials.chat.spy
+    - essentials.chat.url
+
+    - essentials.protect
+    - essentials.protect.alerts
+    - essentials.protect.alerts.notrigger
+    - essentials.protect.damage.contact
+    - essentials.protect.damage.creeper
+    - essentials.protect.damage.disable
+    - essentials.protect.damage.drowning
+    - essentials.protect.damage.fall
+    - essentials.protect.damage.fire
+    - essentials.protect.damage.fireball
+    - essentials.protect.damage.lava
+    - essentials.protect.damage.lightning
+    - essentials.protect.damage.projectiles
+    - essentials.protect.damage.suffocation
+    - essentials.protect.damage.tnt
+    - essentials.protect.entitytarget.bypass
+    - essentials.protect.exemptbreak
+    - essentials.protect.exemptplacement
+    - essentials.protect.exemptusage
+    - essentials.protect.ownerinfo
+    - essentials.protect.pvp
+    - essentials.pvpdelay.exempt
+    - essentials.signs.break.balance
+    - essentials.signs.break.buy
+    - essentials.signs.break.disposal
+    - essentials.signs.break.enchant
+    - essentials.signs.break.free
+    - essentials.signs.break.gamemode
+    - essentials.signs.break.heal
+    - essentials.signs.break.info
+    - essentials.signs.break.kit
+    - essentials.signs.break.mail
+    - essentials.signs.break.protection
+    - essentials.signs.break.repair
+    - essentials.signs.break.sell
+    - essentials.signs.break.spawnmob
+    - essentials.signs.break.time
+    - essentials.signs.break.trade
+    - essentials.signs.break.warp
+    - essentials.signs.break.weather
+    - essentials.signs.color
+    - essentials.signs.create.balance
+    - essentials.signs.create.buy
+    - essentials.signs.create.disposal
+    - essentials.signs.create.enchant
+    - essentials.signs.create.free
+    - essentials.signs.create.gamemode
+    - essentials.signs.create.heal
+    - essentials.signs.create.info
+    - essentials.signs.create.kit
+    - essentials.signs.create.mail
+    - essentials.signs.create.protection
+    - essentials.signs.create.repair
+    - essentials.signs.create.sell
+    - essentials.signs.create.spawnmob
+    - essentials.signs.create.time
+    - essentials.signs.create.trade
+    - essentials.signs.create.warp
+    - essentials.signs.create.weather
+    - essentials.signs.format
+    - essentials.signs.magic
+    - essentials.signs.protection.override
+    - essentials.signs.trade.override
+    - essentials.signs.use.balance
+    - essentials.signs.use.buy
+    - essentials.signs.use.disposal
+    - essentials.signs.use.enchant
+    - essentials.signs.use.free
+    - essentials.signs.use.gamemode
+    - essentials.signs.use.heal
+    - essentials.signs.use.info
+    - essentials.signs.use.kit
+    - essentials.signs.use.mail
+    - essentials.signs.use.protection
+    - essentials.signs.use.repair
+    - essentials.signs.use.sell
+    - essentials.signs.use.spawnmob
+    - essentials.signs.use.time
+    - essentials.signs.use.trade
+    - essentials.signs.use.warp
+    - essentials.signs.use.weather
+    - essentials.sleepingignored
+
+
+    inheritance: []
+    info:
+      prefix: '&e'
+      build: true
+      suffix: ''
+  admin:
+    default: false
+    permissions:
+    - "*"
+    inheritance:
+    - user
+    info:
+      prefix: '&c'
+      build: true
+      suffix: ''

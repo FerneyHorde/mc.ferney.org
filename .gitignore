@@ -1,0 +1,17 @@
+
+*.log
+*.zip
+*.jar
+*.dat
+*~
+.*.swp
+*.dat_old
+*.mca
+*.lock
+*.dat_mcr
+*.data
+*.log*
+*.class
+*.lck
+logs
+crash-reports

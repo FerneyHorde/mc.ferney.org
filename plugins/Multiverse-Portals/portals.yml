@@ -1,0 +1,384 @@
+portals:
+  skyF2:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -35.0,16.0,-25.0:48.0,30.0,60.0
+    world: world_the_end
+    destination: p:skyF1
+  skyF1:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: 26.0,62.0,280.0:30.0,64.0,283.0
+    world: world
+  tohome1:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: 41.0,65.0,270.0:41.0,68.0,273.0
+    world: world
+    destination: StationWorld
+  toTownyworld:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -452.0,4.0,359.0:-448.0,7.0,359.0
+    world: StationWorld
+    destination: world
+  toZombieGame:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -441.0,4.0,354.0:-438.0,6.0,354.0
+    world: StationWorld
+    destination: zombie_games
+  toCastlewars:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -440.0,4.0,328.0:-437.0,6.0,328.0
+    world: StationWorld
+    destination: batle_wars
+  toNether:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -474.0,4.0,362.0:-474.0,7.0,365.0
+    world: StationWorld
+    destination: world_nether
+  fromNether:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: 0.0,60.0,5.0:1.0,64.0,5.0
+    world: world_nether
+    destination: StationWorld
+  toTNT:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: kddd
+    location: -486.0,4.0,358.0:-483.0,6.0,358.0
+    world: StationWorld
+    destination: TNTtesting
+  toBuildWorld:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -484.0,4.0,330.0:-481.0,6.0,330.0
+    world: StationWorld
+    destination: gamesworld
+  fromteampick:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -24.0,212.0,247.0:-24.0,216.0,247.0
+    world: batle_wars
+  YellowCastle:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -24.0,55.0,306.0:-24.0,59.0,308.0
+    world: batle_wars
+  BlueCastle:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -98.0,54.0,236.0:-98.0,58.0,238.0
+    world: batle_wars
+  greenCastle:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -24.0,55.0,306.0:-24.0,59.0,308.0
+    world: batle_wars
+  redCastle:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: 8.0,59.0,202.0:8.0,63.0,204.0
+    world: batle_wars
+  toRedCastle:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -24.0,212.0,242.0:-24.0,215.0,242.0
+    world: batle_wars
+    destination: p:redCastle
+  toyellowCastle:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -24.0,212.0,242.0:-24.0,215.0,242.0
+    world: batle_wars
+    destination: p:YellowCastle
+  togreenCastle:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -29.0,212.0,247.0:-29.0,215.0,247.0
+    world: batle_wars
+    destination: p:greenCastle
+  toblueCastle:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -24.0,212.0,252.0:-24.0,215.0,252.0
+    world: batle_wars
+    destination: p:BlueCastle
+  toredCastle:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -19.0,212.0,247.0:-19.0,215.0,247.0
+    world: batle_wars
+    destination: p:redCastle
+  toparkcore:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -427.0,3.0,325.0:-426.0,6.0,325.0
+    world: StationWorld
+    destination: parkcore
+  fromtowny:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: kddd
+    location: -189.0,70.0,225.0:-183.0,72.0,225.0
+    world: world
+    destination: StationWorld
+  fromHoth:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: 6.0,65.0,6.0:9.0,69.0,6.0
+    world: hoth
+    destination: StationWorld
+  toSurvival:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -451.0,4.0,374.0:-448.0,6.0,374.0
+    world: StationWorld
+    destination: survival
+  fromSurvival:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -401.0,72.0,361.0:-400.0,75.0,362.0
+    world: survival
+    destination: StationWorld
+  fromWars:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -74.0,62.0,332.0:-74.0,66.0,333.0
+    world: batle_wars
+    destination: StationWorld
+  to_water:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: FerneyHorde
+    location: -472.0,3.0,387.0:-472.0,8.0,389.0
+    world: StationWorld
+    destination: p:from_water
+  from_water:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: FerneyHorde
+    location: -544.0,62.0,196.0:-544.0,67.0,198.0
+    world: survival
+    destination: p:to_water
+  skydive:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: FerneyHorde
+    location: -416.0,254.0,330.0:-412.0,254.0,334.0
+    world: StationWorld
+  jump:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: FerneyHorde
+    location: -416.0,0.0,347.0:-412.0,3.0,351.0
+    world: StationWorld
+    destination: p:skydive
+  from_tutorial:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -584.0,3.0,258.0:-584.0,8.0,261.0
+    world: StationWorld
+    destination: p:to_tutorial
+  to_tutorial:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -470.0,3.0,289.0:-470.0,6.0,291.0
+    world: StationWorld
+    destination: p:from_tutorial
+  from_creative:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: 306.0,5.0,1210.0:306.0,9.0,1212.0
+    world: gamesworld
+    destination: StationWorld
+  toHoth:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -472.0,3.0,377.0:-472.0,6.0,379.0
+    world: StationWorld
+    destination: hoth
+  from_mansion:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -657.0,8.0,-582.0:-657.0,11.0,-579.0
+    world: zombie_games
+    destination: StationWorld
+  to_roombuild:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -631.0,3.0,-565.0:-629.0,5.0,-565.0
+    world: zombie_games
+    destination: p:from_roombuild
+  from_roombuild:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -75.0,5.0,1458.0:-73.0,7.0,1458.0
+    world: gamesworld
+    destination: p:to_roombuild
+  to_CityBuild:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -502.0,3.0,331.0:-502.0,7.0,333.0
+    world: StationWorld
+    destination: CityBuild
+  from_CityBuild:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: opsaaaaa
+    location: -13.0,64.0,233.0:-11.0,67.0,233.0
+    world: CityBuild
+    destination: StationWorld

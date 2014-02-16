@@ -1,0 +1,11 @@
+lastOnline=1392519152992
+registered=1384645787121
+isNPC=false
+title=
+surname=
+town=frost
+town-ranks=
+nation-ranks=
+friends=
+townBlocks=
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse

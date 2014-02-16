@@ -1,0 +1,422 @@
+worlds:
+  StationWorld:
+    seed: -2178656888435907077
+    environment: NORMAL
+    type: FLAT
+    hidden: false
+    alias:
+      name: Station
+      color: BLUE
+    pvp: false
+    scale: 1.0
+    respawnworld: ''
+    allowweather: false
+    difficulty: PEACEFUL
+    animals:
+      spawn: true
+    monsters:
+      spawn: false
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: false
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -459.9851942450623
+      y: 5.0
+      z: 341.9630006913272
+      pitch: -28.050005
+      yaw: -0.45000082
+      world: StationWorld
+    autoload: true
+    bedrespawn: true
+  world:
+    seed: 7471279799256309040
+    environment: NORMAL
+    type: NORMAL
+    hidden: false
+    alias:
+      name: Towny64
+      color: GREEN
+    pvp: true
+    scale: 1.0
+    respawnworld: world
+    allowweather: false
+    difficulty: NORMAL
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -186.0
+      y: 70.0
+      z: 228.0
+      pitch: 0.0
+      yaw: 0.0
+      world: world
+    autoload: true
+    bedrespawn: true
+  survival:
+    seed: 3493106338238941002
+    environment: NORMAL
+    type: NORMAL
+    hidden: false
+    alias:
+      name: Towny72
+      color: GREEN
+    pvp: true
+    scale: 1.0
+    respawnworld: survival
+    allowweather: true
+    difficulty: NORMAL
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -404.0
+      y: 72.0
+      z: 358.0
+      pitch: 0.0
+      yaw: 0.0
+      world: survival
+    autoload: true
+    bedrespawn: true
+  gamesworld:
+    seed: -5750634829732000717
+    environment: NORMAL
+    type: FLAT
+    hidden: false
+    alias:
+      name: Creative
+      color: YELLOW
+    pvp: false
+    scale: 1.0
+    respawnworld: gamesworld
+    allowweather: false
+    difficulty: PEACEFUL
+    animals:
+      spawn: true
+    monsters:
+      spawn: false
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: false
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: CREATIVE
+    keepspawninmemory: true
+    spawn:
+      x: 311.48302461500157
+      y: 7.0
+      z: 1211.5754295608724
+      pitch: 85.49999
+      yaw: 269.87158
+      world: gamesworld
+    autoload: true
+    bedrespawn: true
+  TNTtesting:
+    seed: -7681310894356640204
+    environment: NORMAL
+    type: NORMAL
+    hidden: false
+    alias:
+      name: TNTtesting
+      color: YELLOW
+    pvp: true
+    scale: 1.0
+    respawnworld: TNTtesting
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: CREATIVE
+    keepspawninmemory: true
+    spawn:
+      x: 201.0
+      y: 64.0
+      z: 253.0
+      pitch: 0.0
+      yaw: 0.0
+      world: TNTtesting
+    autoload: true
+    bedrespawn: true
+  hoth:
+    generator: HothGenerator
+    seed: -3215776819261464145
+    environment: NORMAL
+    type: NORMAL
+    hidden: false
+    alias:
+      name: Hoth
+      color: GREEN
+    pvp: true
+    scale: 1.0
+    respawnworld: hoth
+    allowweather: true
+    difficulty: NORMAL
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 8.005032294554269
+      y: 65.0
+      z: 8.071893709050125
+      pitch: -15.000006
+      yaw: 3.7500095
+      world: hoth
+    autoload: true
+    bedrespawn: true
+  zombie_games:
+    seed: -1194315159685627135
+    environment: NORMAL
+    type: FLAT
+    hidden: false
+    alias:
+      name: Manstion
+      color: RED
+    pvp: false
+    scale: 1.0
+    respawnworld: zombie_games
+    allowweather: false
+    difficulty: NORMAL
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: false
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -654.5
+      y: 7.5
+      z: -579.5
+      pitch: -5.0999937
+      yaw: 270.4501
+      world: zombie_games
+    autoload: true
+    bedrespawn: true
+  batle_wars:
+    seed: -2240824889174182770
+    environment: NORMAL
+    type: NORMAL
+    hidden: false
+    alias:
+      name: Wars
+      color: RED
+    pvp: true
+    scale: 1.0
+    respawnworld: batle_wars
+    allowweather: false
+    difficulty: EASY
+    animals:
+      spawn: false
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -24.0
+      y: 213.0
+      z: 247.0
+      pitch: 0.0
+      yaw: 0.0
+      world: batle_wars
+    autoload: true
+    bedrespawn: true
+  parkcore:
+    seed: -4840628386493220101
+    environment: NORMAL
+    type: FLAT
+    hidden: false
+    alias:
+      name: Parcore
+      color: RED
+    pvp: false
+    scale: 1.0
+    respawnworld: parkcore
+    allowweather: false
+    difficulty: PEACEFUL
+    animals:
+      spawn: false
+    monsters:
+      spawn: false
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: false
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -600.0
+      y: 250.0
+      z: -2011.0
+      pitch: 0.0
+      yaw: 0.0
+      world: parkcore
+    autoload: true
+    bedrespawn: true
+  StationWorld_nether:
+    seed: 2205917721053532194
+    environment: NETHER
+    type: NORMAL
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 8.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 4.0
+      y: 63.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+      world: StationWorld_nether
+    autoload: true
+    bedrespawn: true
+  StationWorld_the_end:
+    seed: 2205917721053532194
+    environment: THE_END
+    type: NORMAL
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 0.0
+      y: 64.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+      world: StationWorld_the_end
+    autoload: true
+    bedrespawn: true
+  CityBuild:
+    seed: -2371645982490899287
+    environment: NORMAL
+    type: NORMAL
+    hidden: false
+    alias:
+      name: ''
+      color: YELLOW
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: CREATIVE
+    keepspawninmemory: true
+    spawn:
+      x: -11.5
+      y: 64.0
+      z: 236.5
+      pitch: 0.0
+      yaw: 0.0
+      world: CityBuild
+    autoload: true
+    bedrespawn: true

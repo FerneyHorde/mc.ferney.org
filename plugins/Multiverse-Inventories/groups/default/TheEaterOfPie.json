@@ -1,0 +1,1 @@
+{"SURVIVAL":{"potions":"[]","inventoryContents":{"0":{"==":"org.bukkit.inventory.ItemStack","type":"SNOW_BLOCK"}},"enderChestContents":{"0":{"==":"org.bukkit.inventory.ItemStack","type":"SIGN"}},"armorContents":{},"stats":{"ra":"300","ex":"1.8996824","hp":"20","fl":"20","txp":"20","el":"1","ma":"300","sa":"4.0","xp":"0.17647058","ft":"-20","fd":"0.0"}}}

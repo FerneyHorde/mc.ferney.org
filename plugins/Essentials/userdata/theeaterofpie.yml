@@ -1,0 +1,21 @@
+lastlocation:
+  world: TNTtesting
+  x: 79.46910754538321
+  y: 64.0
+  z: 214.64445554545
+  yaw: 86.70167
+  pitch: 47.999996
+timestamps:
+  lastteleport: 1391474360277
+  logout: 1391475369202
+  login: 1391474084932
+logoutlocation:
+  world: gamesworld
+  x: -109.93141045070105
+  y: 4.0
+  z: 1452.3919422311842
+  yaw: 135.92332
+  pitch: 19.499989
+ipAddress: 71.35.195.237
+money: '1131.0'
+afk: false

@@ -1,0 +1,272 @@
+worlds:
+  StationWorld_nether:
+    inheritance:
+    - StationWorld
+  StationWorld_the_end:
+  - StationWorld
+  batle_wars:
+    inheritance:
+    - StationWorld
+  parkcore:
+    inheritance:
+    - StationWorld
+  survival:
+    inheritance:
+    - world
+  CityBuild:
+      inheritance:
+      - gamesworld
+  TNTtesting:
+      inheritance:
+      - gamesworld
+  world_nether:
+    inheritance:
+    - world
+  world_the_end:
+    inheritance:
+    - world
+  hoth:
+    inheritance:
+    - world
+  zombie_games:
+    inheritance:
+    - StationWotld
+users:
+  opsaaaaa:
+    group:
+    - admin
+    permissions: []
+  kddd:
+    group:
+    - admin
+    permissions: []
+  FerneyHorde:
+    group:
+    - admin
+    permissions: []
+  soccerjoseph:
+    group:
+    - admin
+  hulk_miner:
+    options:
+      group: architect
+    worlds:
+      architect:
+        permissions:
+        - group
+    group:
+    - architect
+  XavierBarbary:
+    group:
+    - architect
+groups:
+  user:
+    default: true
+    permissions:
+    - lockette.user.*
+    - -bukkit.command.kill
+    - essentials.hat
+    - essentials.enderchest
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.magic
+    - essentials.chat.question
+    - essentials.chat.shout
+    - essentials.chat.spy
+    - essentials.chat.url
+    - essentials.compass
+    - essentials.delhome
+    - essentials.depth
+    - essentials.getpos
+    - essentials.help
+    - essentials.help.*
+    - essentials.home
+    - essentials.home.bed
+    - essentials.ignore
+    - essentials.info
+    - essentials.itemdb
+    - essentials.keepxp
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.mail.sendall
+    - essentials.me
+    - essentials.msg
+    - essentials.msg.*
+    - essentials.near
+    - essentials.nick
+    - essentials.nick.*
+    - essentials.pay
+    - essentials.protect
+    - essentials.protect.alerts
+    - essentials.protect.alerts.notrigger
+    - essentials.protect.damage.contact
+    - essentials.protect.damage.creeper
+    - essentials.protect.damage.creeper
+    - essentials.protect.damage.disable
+    - essentials.protect.damage.drowning
+    - essentials.protect.damage.fall
+    - essentials.protect.damage.fire
+    - essentials.protect.damage.fireball
+    - essentials.protect.damage.lava
+    - essentials.protect.damage.lightning
+    - essentials.protect.damage.projectiles
+    - essentials.protect.damage.suffocation
+    - essentials.protect.damage.tnt
+    - essentials.protect.entitytarget.bypass
+    - essentials.protect.exemptbreak
+    - essentials.protect.exemptplacement
+    - essentials.protect.ownerinfo
+    - essentials.protect.pvp
+    - essentials.pvpdelay.exempt
+    - essentials.realname
+    - essentials.recipe
+    - essentials.rules
+    - essentials.seen
+    - essentials.seen.banreason
+    - essentials.sell
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.sethome.multiple.unlimited
+    - essentials.signs.break.balance
+    - essentials.signs.break.buy
+    - essentials.signs.break.disposal
+    - essentials.signs.break.enchant
+    - essentials.signs.break.free
+    - essentials.signs.break.gamemode
+    - essentials.signs.break.heal
+    - essentials.signs.break.info
+    - essentials.signs.break.kit
+    - essentials.signs.break.mail
+    - essentials.signs.break.protection
+    - essentials.signs.break.repair
+    - essentials.signs.break.sell
+    - essentials.signs.break.spawnmob
+    - essentials.signs.break.time
+    - essentials.signs.break.trade
+    - essentials.signs.break.warp
+    - essentials.signs.break.weather
+    - essentials.signs.color
+    - essentials.signs.create.balance
+    - essentials.signs.create.buy
+    - essentials.signs.create.disposal
+    - essentials.signs.create.enchant
+    - essentials.signs.create.free
+    - essentials.signs.create.gamemode
+    - essentials.signs.create.heal
+    - essentials.signs.create.info
+    - essentials.signs.create.kit
+    - essentials.signs.create.mail
+    - essentials.signs.create.protection
+    - essentials.signs.create.repair
+    - essentials.signs.create.sell
+    - essentials.signs.create.spawnmob
+    - essentials.signs.create.time
+    - essentials.signs.create.trade
+    - essentials.signs.create.warp
+    - essentials.signs.create.weather
+    - essentials.signs.format
+    - essentials.signs.magic
+    - essentials.signs.protection.override
+    - essentials.signs.trade.override
+    - essentials.signs.use.balance
+    - essentials.signs.use.buy
+    - essentials.signs.use.disposal
+    - essentials.signs.use.enchant
+    - essentials.signs.use.free
+    - essentials.signs.use.gamemode
+    - essentials.signs.use.heal
+    - essentials.signs.use.info
+    - essentials.signs.use.kit
+    - essentials.signs.use.mail
+    - essentials.signs.use.protection
+    - essentials.signs.use.repair
+    - essentials.signs.use.sell
+    - essentials.signs.use.spawnmob
+    - essentials.signs.use.time
+    - essentials.signs.use.trade
+    - essentials.signs.use.warp
+    - essentials.signs.use.weather
+    - essentials.sleepingignored
+    - essentials.spawn
+    - essentials.spawner
+    - essentials.spawner.*
+    - essentials.tpa
+    - essentials.tpaall
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpall
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.*
+    - essentials.weather
+    - essentials.worlds
+    - essentials.worlds.*
+    - essentials.worth
+    - groupmanager.listgroups
+    - groupmanager.mangaddi
+    - groupmanager.manglistp
+    - groupmanager.notify.other
+    - groupmanager.notify.self
+    - lockette.user.create.*
+    - multiverse.access.*
+    - multiverse.core.list.who
+    - multiverse.core.list.worlds
+    - multiverse.core.spawn.self
+    - multiverse.help
+    - multiverse.portal.access.*
+    - Signshop.IgnoreMax
+    - Signshop.IgnoreRepair
+    - Signshop.Signs.*
+    prefix: '&2User &3'
+    worlds:
+      world:
+        permissions:
+        - modifyworld.*
+      gamesworld:
+        permissions:
+        - modifyworld.*
+        - essentials.gamemode
+  architect:
+    inheritance:
+    - user
+    permissions:
+    - worldedit.*
+    - essentials.fly
+    worlds:
+      StationWorld:
+        permissions:
+        - worldedit.*
+        - modifyworld.*
+        - bukkit.command.gamemode
+        - essentials.gamemode
+    prefix: '&5Architect &3'
+  admin:
+    inheritance:
+    - architect
+    prefix: '&8Admin &3'
+    permissions:
+    - '*'
+    - permissions.*
+    - lockette.admin.*
+    worlds:
+      gamesworld:
+        permissions:
+        - -mv.bypass.gamemode.*
+      world:
+        permissions:
+        - -bukkit.command.give
+        - -bukkit.command.xp
+        - -bukkit.command.gamemode
+        - -essentials.gamemode
+        - -essentials.give
+        - -essentials.give.*
+        - -essentials.itemspawn.*
+        - -mv.bypass.gamemode.*

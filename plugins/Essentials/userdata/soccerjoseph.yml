@@ -1,0 +1,30 @@
+money: '2870.0'
+timestamps:
+  login: 1392516622574
+  logout: 1392518439965
+  lastteleport: 1392518128975
+ipAddress: 67.182.204.126
+lastlocation:
+  world: StationWorld
+  x: -458.6924657842538
+  y: 5.0
+  z: 342.27419527311434
+  yaw: -193.29594
+  pitch: 19.164751
+logoutlocation:
+  world: world
+  x: -79.02845049576939
+  y: 79.86512829970259
+  z: 373.6882434390304
+  yaw: 29.271036
+  pitch: 12.193965
+homes:
+  soccerjoseph:
+    world: zombie_games
+    x: -485.699999988079
+    y: 4.0
+    z: -633.6999999880791
+    yaw: -6.2336164
+    pitch: 11.258145
+afk: false
+nickname: joseph

@@ -1,0 +1,30 @@
+money: '2000.0'
+lastlocation:
+  world: StationWorld
+  x: -460.3980698779882
+  y: 3.5
+  z: 350.96110602805356
+  yaw: -8.681366
+  pitch: 19.69872
+logoutlocation:
+  world: world
+  x: -99.83286837700103
+  y: 65.0
+  z: 401.1992183958636
+  yaw: -0.57470703
+  pitch: 52.47295
+timestamps:
+  logout: 1388771934967
+  login: 1388769369585
+  lastteleport: 1385860816300
+ipAddress: 98.202.150.197
+nickname: Sushi
+homes:
+  home:
+    world: world
+    x: -104.87979873336037
+    y: 70.0
+    z: 397.0928262020367
+    yaw: -153.43762
+    pitch: 34.30679
+afk: false
